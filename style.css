@@ -1,0 +1,413 @@
+
+/* Menu de index2.php*/
+
+.menu2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 30px;
+    overflow: hidden;
+    background-color:orange;
+}
+
+.menu2 li {
+    float: left;
+    padding-left: 35px;
+}
+
+
+.menu2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu2 input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+}
+.menu2 input[type=submit] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 50px;
+    font-size: 17px;
+    
+}
+
+.menu2 li a:hover {
+    background-color: none;
+    color:black;
+}
+
+
+/* menu deroulante*/
+
+
+.menu2 li.dropdown {
+    display: inline-block;
+}
+
+.menu2 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.menu2 .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.menu2 .dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Footer*/
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:gray;
+   color: white;
+   text-align: center;
+   padding:30px;
+}
+
+/* AJOUTER une annonce */
+.form h3{
+color:grey;
+padding:0;
+}
+
+.form{
+border-radius: 5px;
+ background-color: #f2f2f2;
+padding: 20px;
+}
+.form input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* connexion */
+
+.connexion {
+padding: 30px 0px 20px 500px;
+}
+
+
+.connexion form {
+  background: white;
+  width: 40%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  font-family: lato;
+  position: relative;
+  color: #333;
+  border-radius: 10px;
+
+
+}
+.connexion form header {
+  background: lightblue;
+  padding: 30px 20px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+}
+c
+.connexion form label span {
+  color: #FF3838;
+  font-size: 2em;
+  position: absolute;
+  left: 2.3em;
+  top: -10px;
+}
+.connexion form label {
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.connexion form input {
+  display: block;
+  width: 78%;
+  margin-left: 20px;
+  padding: 5px 20px;
+  font-size: 1em;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.connexion input[type=submit] {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: 45%;
+  transform: translate(-50%, 0);
+  font-family: inherit;
+  color: white;
+  background: lightblue;
+  outline: none;
+  border: none;
+  padding: 20px 0px;
+  font-size: 1.3em;
+  font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.connexion input[type=submit]:hover {
+  background: lightblue;
+}
+
+/*inscription*/
+
+.inscription{
+padding: 5px 0px 20px 400px;
+}
+
+.inscription form {
+  background: white;
+  width:55%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  font-family: lato;
+  position: relative;
+  color: #333;
+  border-radius: 10px;
+}
+.inscription form header {
+  background: lightblue;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+}
+
+.inscription form label {
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.inscription form input {
+  display: block;
+  width: 75%;
+  margin-left: 20px;
+  padding: 1px 5px;
+  font-size: 1em;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.inscription input[type=submit] {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: 45%;
+  transform: translate(-50%, 0);
+  font-family: inherit;
+  color: white;
+  background: lightblue;
+  outline: none;
+  border: none;
+  padding: 20px 0px;
+  font-size: 1.3em;
+  font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.inscription input[type=submit]:hover {
+  background:lightblue;
+}
+
+/* MAP */
+
+.map{
+  overflow: hidden;
+}
+
+.map__image{
+  width:50%;
+  float: left; 
+}
+
+.map__image path{
+ fill:#a4ced2;
+  stroke:#FFF;
+  stroke-width:1px;
+  transition: fill 0.3s;
+}
+.map__image path:hover{
+  fill:lightblue;
+ }
+
+.map__list{
+  float:right;
+  width:50%;
+  
+
+
+}
+
+.map__list a{
+  color: lightblue;
+ text-decoration:none;
+ transition: color 0.3s;
+
+}
+
+.map__list a:hover{
+  color: inherit;
+
+}
+
+.map__list a{
+color:lightblue;
+font-weight: bold;
+text-decoration: none;
+
+}
+.map__list li{
+   list-style-type: none;
+   padding: 2px;
+}
+/* offres */
+
+
+
+/*profil*/
+.profil {
+
+  background: beige;
+  color:gray;
+
+}
+
+.profil h4 {
+ margin: auto;
+
+}
+img{
+  display: block;
+  margin: auto; 
+}
+
+.profil {
+    list-style-type: none;
+    margin: 0px; 
+    padding: 1px 25px;
+    overflow: hidden;
+    background-color:;
+} 
+
+header fieldset {
+  background: orange; 
+  color: white; 
+}
+
+ .identification h2 {
+  display: block;
+  
+}
+
+
+  .article h2{
+      color:grey;
+  }
+
+
+  .article p{
+  color:black;
+
+}
+.article input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.article input[type=submit]:hover {
+    background-color: #45a049;
+}
+.offre td{
+  padding:30px;
+}
+
+.offre p{
+ font-size:20px;
+}
+.offre a{
+text-decoration:none;
+color:red;
+}
+
+ fieldset
+{
+background-color:orange;
+}
+
+/* changer profil */
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
